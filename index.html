@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Come join Barbie Land!</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-image: url('pink2.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+        .signup-form {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 350px;
+        }
+        .signup-form h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .signup-form input {
+        width: 100%;
+        padding: 12px;
+        margin: 8px 0;
+        border: 2px solid #ddd;
+        border-radius: 6px;
+        transition: border-color 0.3s ease, box-shadow 0.3s ease;
+        box-sizing: border-box;
+        }
+        .signup-form input:focus {
+        border-color: #FC8EAC;
+        box-shadow: 0 0 5px rgba(252, 142, 172, 0.5);
+        outline: none;
+        }
+        .signup-form input:focus {
+            border-color: #FC8EAC;
+            outline: none;
+        }
+        .signup-form button {
+            width: 100%;
+            padding: 10px;
+            background-color: #FC8EAC;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .signup-form button:hover {
+            background-color: #FC0FC0;
+        }
+    </style>
+</head>
+<body>
+
+<div class="signup-form">
+    <h2>Sign Up Barbie Girl!</h2>
+    <form action="#" method="post">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <input type="password" name="password" placeholder="Password" required>
+        <button type="submit">Sign Up</button>
+    </form>
+</div>
+
+</body>
+</html>
